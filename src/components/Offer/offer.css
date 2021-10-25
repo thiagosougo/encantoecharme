@@ -1,0 +1,76 @@
+.Offer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  padding: 100px;
+}
+
+.Offer div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.primeiraColunaOffer {
+  align-items: center;
+}
+
+.primeiraColunaOffer ul li {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 64px;
+  text-transform: uppercase;
+}
+
+.segundaColunaOffer h2 {
+  font-family: Cormorant Garamond;
+  width: 450px;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  color: #e5acaa;
+}
+
+.segundaColunaOffer h3 {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 51px;
+  margin-bottom: 15px;
+
+  text-transform: uppercase;
+}
+
+.segundaColunaOffer button {
+  background: linear-gradient(
+    92.84deg,
+    #e5acaa 0%,
+    #ffd3d1 49.48%,
+    #e5acaa 100%
+  );
+  width: 238px;
+  height: 53px;
+}
+
+.segundaColunaOffer button a {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 95.06%;
+
+  text-align: center;
+}
+
+.segundaColunaOffer button p {
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  line-height: 24px;
+
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}

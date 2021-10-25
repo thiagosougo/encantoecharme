@@ -1,0 +1,65 @@
+.Depositions {
+  display: flex;
+  justify-content: center;
+
+  padding: 70px 0;
+  height: 100vh;
+
+  background: rgba(237, 188, 186, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(237, 188, 186, 1) 26%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(26%, rgba(237, 188, 186, 1)),
+    color-stop(100%, rgba(255, 255, 255, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(237, 188, 186, 1) 26%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(237, 188, 186, 1) 26%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(237, 188, 186, 1) 26%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(237, 188, 186, 1) 26%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edbcba', endColorstr='#ffffff', GradientType=1 );
+}
+
+.Depositions h2,
+.Depositions span {
+  text-align: center;
+}
+
+.Depositions h2 {
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.Depositions span {
+  font-family: Tangerine;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 50px;
+
+  text-transform: lowercase;
+  color: #000;
+}

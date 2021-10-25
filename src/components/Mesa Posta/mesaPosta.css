@@ -1,0 +1,24 @@
+.mesaPosta{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mesaPosta section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.mesaPosta section img{
+    width: 650px;
+    height: 650px;
+}
+
+.mesaPosta section p{
+    max-width: 550px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+

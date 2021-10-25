@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import Bonus from "./components/Bonus/Bonus";
+import Cards from "./components/Cards/Cards";
+import Depositions from "./components/Depositions/Depositions";
+import Header from "./components/Header/Header";
+import MainSection from "./components/Main Section/MainSection";
+import MesaPosta from "./components/Mesa Posta/MesaPosta";
+import Offer from "./components/Offer/Offer";
+import Questions from "./components/Questions/Questions";
+import Summary from "./components/Summary/Summary";
+import Timer from "./components/Timer/Timer";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <MainSection />
+      <MesaPosta />
+      <div className="Card">
+        <Cards
+          titulo="Aulas Práticas"
+          conteudo=" Conteúdo 100% aplicável em qualquer repertório. Você receberá demonstrações, explicações, exercícios e tarefas para efetivar sua evolução na etiqueta européia."
+        />
+        <Cards
+          titulo="Mentoria ao vivo"
+          conteudo="Alunas do MARATONA MESA POSTA poderão fazer parte das Alunas VIP, que terão direito a um ano de mentoria ao vivo no ZOOM - 24 aulas (opcional)."
+        />
+        <Cards
+          titulo="Do básico ao avançado"
+          conteudo=" Você aprenderá desde mesa formal, informal, decorativa, ordem dos talheres, recepção e convite, arranjos florais até como se portar em um evento formal, como ser uma boa anfitriã e usar a etiqueta européia."
+        />
+        <Cards
+          titulo="Área vip e suporte"
+          conteudo="Você terá acesso a áreas Vip's exclusivas para alunos e suporte para tirar todas as suas dúvidas. "
+        />
+        <Cards
+          titulo="+ de 20 aulas"
+          conteudo="Cronograma montado e planejado para sua evolução na etiqueta com mais de 20 aulas gravadas em vídeo e áudios de exercícios - PDF's de Bônus."
+        />
+        <Cards
+          titulo="Acesso vitalício"
+          conteudo="Você paga apenas uma vez e tem acesso de forma ilimitada e por prazo vitalício."
+        />
+      </div>
+      <Bonus />
+      <Depositions />
+      <Offer />
+      <Summary />
+      <Timer />
+      <div className="Questions">
+      <h2>Perguntas </h2>
+      <br />
+      <span>frequentes</span>
+        <Questions
+          question=""
+          answer=""
+    />
+      </div>
     </div>
   );
 }
-
-export default App;
