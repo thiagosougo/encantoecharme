@@ -1,6 +1,8 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-size: 100%;
 }
 
 button {
@@ -32,7 +34,11 @@ p{
   background-color: #be7e75;
 }
 
-.Card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.larguraImagem {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+

@@ -13,8 +13,8 @@ export default function Bonus() {
         <h3>Bônus: curso chá da tarde</h3>
       </div>
 
-      <div class="colunasBonus">
-        <div class="bonusImagem">
+      <div className="colunasBonus">
+        <div className="bonusImagem larguraImagem">
           <img src={bonusImagem} />
         </div>
 

@@ -18,7 +18,8 @@ export default function Offer() {
       <div className="segundaColunaOffer">
         <h2>Oferta disponível por tempo limitado</h2>
         <div className="valorBotao">
-          <h3>R$ 500</h3>
+          <h4>De $180 por</h4>
+          <h3>$ 120</h3>
           <button>
             <a href="#">Quero aproveitar</a>
           </button>

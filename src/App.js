@@ -1,5 +1,3 @@
-import "./App.css";
-
 import Bonus from "./components/Bonus/Bonus";
 import Cards from "./components/Cards/Cards";
 import Depositions from "./components/Depositions/Depositions";
@@ -9,7 +7,6 @@ import MesaPosta from "./components/Mesa Posta/MesaPosta";
 import Offer from "./components/Offer/Offer";
 import Questions from "./components/Questions/Questions";
 import Summary from "./components/Summary/Summary";
-import Timer from "./components/Timer/Timer";
 
 export default function App() {
   return (
@@ -20,7 +17,7 @@ export default function App() {
       <div className="Card">
         <Cards
           titulo="Aulas Práticas"
-          conteudo=" Conteúdo 100% aplicável em qualquer repertório. Você receberá demonstrações, explicações, exercícios e tarefas para efetivar sua evolução na etiqueta européia."
+          conteudo=" Conteúdo 100% aplicável em qualquer repertório. Você receberá demonstrações, explicações, exercícios e tarefas para efetivar sua evolução na etiqueta europeia."
         />
         <Cards
           titulo="Mentoria ao vivo"
@@ -39,23 +36,19 @@ export default function App() {
           conteudo="Cronograma montado e planejado para sua evolução na etiqueta com mais de 20 aulas gravadas em vídeo e áudios de exercícios - PDF's de Bônus."
         />
         <Cards
-          titulo="Acesso vitalício"
-          conteudo="Você paga apenas uma vez e tem acesso de forma ilimitada e por prazo vitalício."
+          titulo="Acesso por um ano"
+          conteudo="Ao adquirir o curso, você tem até 1 ano para concluir, podendo acessar de forma ilimitada neste período."
         />
       </div>
       <Bonus />
       <Depositions />
       <Offer />
       <Summary />
-      <Timer />
       <div className="Questions">
-      <h2>Perguntas </h2>
-      <br />
-      <span>frequentes</span>
-        <Questions
-          question=""
-          answer=""
-    />
+        <h2>Perguntas </h2>
+        <br />
+        <span>frequentes</span>
+        <Questions question="" answer="" />
       </div>
     </div>
   );

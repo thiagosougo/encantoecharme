@@ -20,7 +20,9 @@ export default function MainSection() {
       </section>
 
       <section className="segundaColuna">
+        <div className="larguraImagem">
           <img src={fotoLanding}/>
+          </div>
       </section>
     </div>
   );

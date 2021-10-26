@@ -1,24 +1,40 @@
-.mesaPosta{
-    display: grid;
-    grid-template-columns: 50% 50%;
+.mesaPosta {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-.mesaPosta section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
+.mesaPosta section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
 }
 
-.mesaPosta section img{
-    width: 650px;
-    height: 650px;
+.mesaPosta section img {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 }
 
-.mesaPosta section p{
-    max-width: 550px;
-    font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 1.5em;
+.mesaPosta section p {
+  max-width: 550px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5em;
 }
 
+@media screen and (max-width: 850px) {
+  .mesaPosta {
+    display: block;
+  }
+
+  .mesaPosta section img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .mesaPosta section p{
+    padding: 0 20px 20px 20px
+  }
+}
