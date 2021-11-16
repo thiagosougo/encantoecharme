@@ -1,29 +1,22 @@
 import React from "react";
 
 import "./mainSection.css";
-import fotoLanding from './../../img/foto_Landing.jpg'
+import plates1 from "../../img/plates1.jpg";
+import plates2 from "../../img/plates2.jpg";
+import maratona from "../../img/maratona.png";
 
 export default function MainSection() {
   return (
     <div className="mainSection">
-      <section className="primeiraColuna">
-        <h2>Você vai aprender a ser uma excelente anfitriã</h2>
-        <br/>
-        <p>
-          Descubra tudo sobre etiqueta, decoração e mesa posta, aprendendo na
-          prática como oferecer um jantar elegante com as louças da sua própria
-          casa.
-        </p>
-        <button>
-          <a href="">Quero aprender</a>
-        </button>
-      </section>
-
-      <section className="segundaColuna">
-        <div className="larguraImagem">
-          <img src={fotoLanding}/>
-          </div>
-      </section>
+      <div className="larguraImagem">
+        <img src={plates1} />
+      </div>
+      <div className="larguraImagem">
+        <img src={maratona} />
+      </div>
+      <div className="larguraImagem">
+        <img src={plates2} />
+      </div>
     </div>
   );
 }

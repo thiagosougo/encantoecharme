@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
 
-  padding: 30px;
+  padding: 70px;
 }
 
 .Offer div {
@@ -31,7 +31,7 @@
   font-weight: 300;
   text-transform: uppercase;
 
-  color: #e5acaa;
+  color: #C59E76;
 }
 
 .segundaColunaOffer h4 {
@@ -53,9 +53,9 @@
 .segundaColunaOffer button {
   background: linear-gradient(
     92.84deg,
-    #e5acaa 0%,
-    #ffd3d1 49.48%,
-    #e5acaa 100%
+    #C59E76 0%,
+    #DABA9A 50%,
+    #C59E76 100%
   );
   width: 238px;
   height: 53px;
@@ -101,6 +101,7 @@
 @media screen and (max-width: 560px) {
   .Offer {
     display: block;
+    padding: 50px;
   }
   
   .primeiraColunaOffer{
@@ -111,12 +112,13 @@
     font-size: 24px;
     line-height: 44px;
   }
+
   .primeiraColunaOffer {
     align-items: flex-start;
   }
 
   .segundaColunaOffer {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .segundaColunaOffer button {

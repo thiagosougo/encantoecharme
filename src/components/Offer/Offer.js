@@ -25,7 +25,7 @@ export default function Offer() {
           </button>
         </div>
 
-        <p>Bandeiras dos bancos e condições de pagamento</p>
+        <p>Paypal, cartão de crédito e débito</p>
       </div>
     </div>
   );

@@ -1,0 +1,89 @@
+.presentationSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: rgba(212, 175, 138, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(212, 175, 138, 1) 0%,
+    rgba(255, 229, 204, 1) 50%,
+    rgba(221, 183, 144, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(212, 175, 138, 1)),
+    color-stop(50%, rgba(255, 229, 204, 1)),
+    color-stop(100%, rgba(221, 183, 144, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(212, 175, 138, 1) 0%,
+    rgba(255, 229, 204, 1) 50%,
+    rgba(221, 183, 144, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(212, 175, 138, 1) 0%,
+    rgba(255, 229, 204, 1) 50%,
+    rgba(221, 183, 144, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(212, 175, 138, 1) 0%,
+    rgba(255, 229, 204, 1) 50%,
+    rgba(221, 183, 144, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(212, 175, 138, 1) 0%,
+    rgba(255, 229, 204, 1) 50%,
+    rgba(221, 183, 144, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4af8a', endColorstr='#ddb790', GradientType=1 );
+}
+
+.presentationSection video{
+    margin-top: 50px;
+}
+.presentationSection a {
+  padding: 15px 50px;
+  margin: 30px 0 50px 0;
+  background-color: #73263c;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.borderPresentation {
+  width: 90%;
+  height: 25em;
+  border: 20px solid #fff;
+  border-bottom: none;
+  margin-top: -400px;
+}
+
+@media screen and (max-width: 740px) {
+  .presentationSection video {
+    width: 90%;
+  }
+
+  .presentationSection a {
+    padding: 10px 30px;
+    margin: 30px;
+  
+    font-size: 20px;
+  }
+
+  .borderPresentation {
+    width: 80%;
+    height: 20em;
+    border: 10px solid reds;
+    border-bottom: none;
+    margin-top: -320px;
+  }
+}

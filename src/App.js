@@ -7,12 +7,16 @@ import MesaPosta from "./components/Mesa Posta/MesaPosta";
 import Offer from "./components/Offer/Offer";
 import Questions from "./components/Questions/Questions";
 import Summary from "./components/Summary/Summary";
+import Call from "./components/Call/Call";
+import Presentation from "./components/Presentation/Presentation";
 
 export default function App() {
   return (
     <div className="App">
       <Header />
       <MainSection />
+      <Call/>
+      <Presentation/>
       <MesaPosta />
       <div className="Card">
         <Cards

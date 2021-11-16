@@ -2,45 +2,45 @@
   display: grid;
   grid-template-columns: 50% 50%;
 
-  background: rgba(237, 188, 186, 1);
+  background: rgba(212, 177, 144, 1);
   background: -moz-linear-gradient(
-    -45deg,
-    rgba(237, 188, 186, 1) 0%,
-    rgba(255, 211, 209, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
+    left,
+    rgba(212, 177, 144, 1) 0%,
+    rgba(239, 222, 205, 1) 41%,
+    rgba(240, 208, 178, 1) 100%
   );
   background: -webkit-gradient(
     left top,
-    right bottom,
-    color-stop(0%, rgba(237, 188, 186, 1)),
-    color-stop(50%, rgba(255, 211, 209, 1)),
-    color-stop(100%, rgba(255, 255, 255, 1))
+    right top,
+    color-stop(0%, rgba(212, 177, 144, 1)),
+    color-stop(41%, rgba(239, 222, 205, 1)),
+    color-stop(100%, rgba(240, 208, 178, 1))
   );
   background: -webkit-linear-gradient(
-    -45deg,
-    rgba(237, 188, 186, 1) 0%,
-    rgba(255, 211, 209, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
+    left,
+    rgba(212, 177, 144, 1) 0%,
+    rgba(239, 222, 205, 1) 41%,
+    rgba(240, 208, 178, 1) 100%
   );
   background: -o-linear-gradient(
-    -45deg,
-    rgba(237, 188, 186, 1) 0%,
-    rgba(255, 211, 209, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
+    left,
+    rgba(212, 177, 144, 1) 0%,
+    rgba(239, 222, 205, 1) 41%,
+    rgba(240, 208, 178, 1) 100%
   );
   background: -ms-linear-gradient(
-    -45deg,
-    rgba(237, 188, 186, 1) 0%,
-    rgba(255, 211, 209, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
+    left,
+    rgba(212, 177, 144, 1) 0%,
+    rgba(239, 222, 205, 1) 41%,
+    rgba(240, 208, 178, 1) 100%
   );
   background: linear-gradient(
-    135deg,
-    rgba(237, 188, 186, 1) 0%,
-    rgba(255, 211, 209, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
+    to right,
+    rgba(212, 177, 144, 1) 0%,
+    rgba(239, 222, 205, 1) 41%,
+    rgba(240, 208, 178, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edbcba', endColorstr='#ffffff', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4b190', endColorstr='#f0d0b2', GradientType=1 );
 }
 
 .primeiraColunaSummary,

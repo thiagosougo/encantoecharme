@@ -7,12 +7,13 @@
     left: 0;
     right: 0;
     top: 0;
+    z-index: 999;
     
     width: 100vw;
     padding: 10px;
 
-    background-color: #DB9D9B;
-}
+    background: #73263C
+   }
 
 .header h1{
     text-transform: uppercase;
@@ -22,18 +23,28 @@
     color: #FFF
 }
 
-.header span{
+.header .number{
     color: #000;
     font-size: 1.2em
 }
 
 @media screen and (max-width: 790px) {
     .header h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
-    .header span{
+    .header .number{
         font-size: 0.9em
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header h1{
+        max-width: 300px
+    }
+
+    .blackColorResponsive{
+        color: #000
     }
 }
 

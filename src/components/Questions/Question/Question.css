@@ -15,11 +15,11 @@
   }
   
   .Questions span {
-    font-family: Tangerine;
+    font-family: Tangerine, Arial, Helvetica, sans-serif;
     text-transform: lowercase;
   
     font-size: 150px;
-    color: #e5acaa;
+    color: #D4B190;
   
     margin: -70px 0 30px 0;
   }
@@ -27,8 +27,8 @@
   .questionsBox {
     width: 80%;
     
-    background-color: #e5acaa;
-    border: 5px solid #e5acaa;
+    background-color: #D4B190;
+    border: 5px solid #D4B190;
   
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
     align-items: center;
   
     background-color: #000;
-    color: #f6c6c5;
+    color: #D4B190;
   
     font-family: Urbanist;
     font-style: normal;
@@ -69,7 +69,7 @@
   }
   
   .questionAnswer {
-    background-color: #e5acaa;
+    background-color: #D4B190;
     color: #000;
   
     padding: 25px;
@@ -80,4 +80,13 @@
     display: none;
   }
   
-  
+  @media screen and (max-width: 690px) {
+    .questionTitleCard h3 {
+      margin-left: 0px;
+    }  
+
+    .Questions span {
+      font-size: 130px;
+      color: #D4B190;
+    }
+  }
