@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 50px;
 
   background: rgba(212, 175, 138, 1);
   background: -moz-linear-gradient(
@@ -45,15 +46,15 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4af8a', endColorstr='#ddb790', GradientType=1 );
 }
 
-.presentationSection video{
-    margin-top: 50px;
-}
-.presentationSection a {
+.linkPresentation{
+  background-color: #73263c;
   padding: 15px 50px;
   margin: 30px 0 50px 0;
-  background-color: #73263c;
+  z-index: 1;
+}
 
-  color: #fff;
+.presentationSection a {
+    color: #fff;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 25px;
@@ -68,7 +69,7 @@
 }
 
 @media screen and (max-width: 740px) {
-  .presentationSection video {
+  .videoPresentation {
     width: 90%;
   }
 
@@ -82,8 +83,25 @@
   .borderPresentation {
     width: 80%;
     height: 20em;
-    border: 10px solid reds;
     border-bottom: none;
     margin-top: -320px;
+  }
+
+  .linkPresentation{
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .linkPresentation, .presentationSection a{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 440px){
+  .linkPresentation, .presentationSection a{
+    padding: 5px;
+    margin: 20px;
+
   }
 }

@@ -1,0 +1,6 @@
+.ClientsSection{
+    background-image: url("../../background/depositionsBackground.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}

@@ -18,14 +18,17 @@ export default function Offer() {
       <div className="segundaColunaOffer">
         <h2>Oferta disponível por tempo limitado</h2>
         <div className="valorBotao">
-          <h4>De $180 por</h4>
+          <h4>De $180</h4>
+          <h5>Por apenas</h5>
           <h3>$ 120</h3>
           <button>
             <a href="#">Quero aproveitar</a>
           </button>
         </div>
 
-        <p>Paypal, cartão de crédito e débito</p>
+        <div className="larguraImagem">
+          <img src="/img/payment.png"/>
+        </div>
       </div>
     </div>
   );

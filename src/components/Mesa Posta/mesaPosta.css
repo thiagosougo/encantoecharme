@@ -28,8 +28,6 @@
 .mesaPosta article section:first-child {
   padding: 30px;
   width: 88%;
-
-  padding: 30px;
 }
 
 .mesaPosta article section:first-child p {
@@ -132,16 +130,58 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3bf9d', endColorstr='#e9c4a0', GradientType=1 );
 }
 
-.linkPrices a{
-  color: #73263C;
+.linkPrices a {
+  color: #73263c;
   text-transform: uppercase;
 
   font-weight: bold;
   font-size: 25px;
 }
 
-.mesaPosta article section:last-child  img{
+.mesaPosta article section:last-child img {
   margin-top: 20px;
   width: 60%;
 }
 
+@media screen and (max-width: 740px) {
+  .mesaPosta {
+    padding: 20px;
+  }
+
+  .mesaPosta article {
+    display: block;
+  }
+
+  .mesaPosta h2 {
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 120px;
+  }
+
+  .mesaPosta article section:first-child {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .mesaPosta article section:first-child .larguraImagem {
+    justify-content: center;
+  }
+
+  .mesaPosta article section:first-child p {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .mesaPosta article section:first-child img {
+    width: 20%;
+    margin-bottom: 50px;
+  }
+
+  .mesaPosta article section:last-child img {
+    margin-top: 20px;
+    width: 90%;
+  }
+}

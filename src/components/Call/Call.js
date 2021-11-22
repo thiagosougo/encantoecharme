@@ -1,8 +1,6 @@
 import React from "react";
 import "./call.css"
 
-import Dots from "../../img/dots.png";
-
 export default function Call() {
   return (
     <div className="callSection">
@@ -15,7 +13,7 @@ export default function Call() {
       </p>
 
       <div className="larguraImagem">
-         <img src={Dots}/>
+         <img src="/img/dots.png"/>
       </div>
     </div>
   );

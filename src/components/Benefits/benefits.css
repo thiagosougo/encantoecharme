@@ -1,0 +1,130 @@
+.flexBenefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.benefitsSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: 1;
+}
+
+.cardBenefits {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+
+  padding: 40px;
+  margin: 0 50px 70px 0;
+}
+
+.cardBenefits:not(:first-child) {
+  color: #fff;
+  text-align: center;
+
+  background: rgba(194, 149, 99, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(194, 149, 99, 1) 0%,
+    rgba(214, 181, 148, 1) 49%,
+    rgba(194, 149, 99, 1) 100%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(194, 149, 99, 1)),
+    color-stop(49%, rgba(214, 181, 148, 1)),
+    color-stop(100%, rgba(194, 149, 99, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(194, 149, 99, 1) 0%,
+    rgba(214, 181, 148, 1) 49%,
+    rgba(194, 149, 99, 1) 100%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(194, 149, 99, 1) 0%,
+    rgba(214, 181, 148, 1) 49%,
+    rgba(194, 149, 99, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(194, 149, 99, 1) 0%,
+    rgba(214, 181, 148, 1) 49%,
+    rgba(194, 149, 99, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(194, 149, 99, 1) 0%,
+    rgba(214, 181, 148, 1) 49%,
+    rgba(194, 149, 99, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c29563', endColorstr='#c29563', GradientType=1 );
+}
+
+.cardBenefits:not(:first-child) h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.cardBenefits:first-child {
+  background-color: #fff !important;
+}
+
+.cardBenefits:first-child h2 {
+  font-family: Tangerine, Arial, Helvetica, sans-serif;
+  font-size: 120px;
+  color: #73263c;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.cardBenefits:first-child p {
+  font-weight: 400;
+  text-align: center;
+}
+
+.borderBenefits {
+  width: 70%;
+  height: 430px;
+  margin-top: -630px;
+  margin-bottom: 200px;
+  border: 10px solid #73263c;
+}
+
+@media screen and (max-width: 1050px) {
+  .benefitsSection {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .borderBenefits {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .benefitsSection {
+    display: block;
+  }
+
+  .cardBenefits {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+
+    padding: 40px;
+    margin: 20px;
+  }
+}

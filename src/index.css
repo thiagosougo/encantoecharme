@@ -16,7 +16,7 @@ a {
 }
 
 h1,
-h2 {
+h2, h3 {
   font-family: Cormorant, Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
@@ -31,7 +31,7 @@ p, a{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #be7e75;
+  background-color: #73263C;
 }
 
 .larguraImagem {

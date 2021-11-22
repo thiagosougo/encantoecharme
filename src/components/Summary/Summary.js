@@ -1,13 +1,12 @@
 import React from "react";
 import "./summary.css";
-import logo from "./../../img/logo.png";
-import eciene from "./../../img/eciene.jpg";
+
 
 export default function Summary() {
   return (
     <div className="Summary">
       <div className="primeiraColunaSummary">
-        <img src={logo} />
+        <img src="/img/logo.png" />
 
         <h2>Aprenda com quem tem mais de 200 alunas formadas</h2>
 
@@ -25,7 +24,7 @@ export default function Summary() {
       </div>
       <div className="segundaColunaSummary">
         <div className="larguraImagem">
-          <img src={eciene} />
+          <img src="/img/eciene.jpg" />
         </div>
       </div>
     </div>

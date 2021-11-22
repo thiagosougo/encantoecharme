@@ -1,7 +1,6 @@
 import React from "react";
 import "./mesaPosta.css";
-import Dots from "../../img/dots.png";
-import Payments from "../../img/payment.png";
+
 export default function MesaPosta() {
   return (
     <div className="mesaPosta">
@@ -17,7 +16,7 @@ export default function MesaPosta() {
           </p>
 
           <div className="larguraImagem">
-            <img src={Dots} />
+            <img src="/img/dots.png"/>
           </div>
         </section>
 
@@ -34,7 +33,7 @@ export default function MesaPosta() {
           </div>
 
           <div className="larguraImagem">
-            <img src={Payments} />
+            <img src="/img/payment.png" />
           </div>
         </section>
       </article>
