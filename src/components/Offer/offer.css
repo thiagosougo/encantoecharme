@@ -18,6 +18,7 @@
 .primeiraColunaOffer ul li {
   font-family: Cormorant Garamond;
   font-style: normal;
+  font-weight: 100;
   font-size: 30px;
   line-height: 64px;
   text-transform: uppercase;
@@ -33,29 +34,18 @@
   color: #C59E76;
 }
 
-.segundaColunaOffer h5, .segundaColunaOffer h4 {
-  font-family: Urbanist;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 23px;
-}
-
 .segundaColunaOffer h4 {
-  color: #E3BF9D;
-  margin-bottom: 10px;
-}
-
-.segundaColunaOffer h5 {
-  font-weight: 500;
+  font-family: Urbanist;
+  margin-bottom: 20px;
 }
 
 .segundaColunaOffer h3 {
   font-family: Urbanist;
   font-style: normal;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 60px;
   line-height: 51px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   text-transform: uppercase;
 }
@@ -90,9 +80,6 @@
   text-transform: uppercase;
 }
 
-.larguraImagem img{
-  width: 80%
-}
 
 @media screen and (max-width: 850px) {
   .primeiraColunaOffer ul li {

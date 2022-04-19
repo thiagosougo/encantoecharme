@@ -5,7 +5,6 @@
     flex-direction: column;
   
     margin-bottom: 100px;
-    margin-top: 50px; 
   }
   
   .Questions h2 {
@@ -26,8 +25,8 @@
   }
   
   .questionsBox {
-    width: 70%;
-
+    width: 80%;
+    
     background-color: #D4B190;
     border: 5px solid #D4B190;
   
@@ -67,9 +66,6 @@
   
   .questionTitleCard h3 {
     margin-left: 20px;
-    font-size: 26px;
-    font-weight: 500;
-    font-family: Urbanist, Arial, Helvetica, sans-serif;
   }
   
   .questionAnswer {
@@ -79,16 +75,14 @@
     padding: 25px;
     font-size: 22px;
   }
-    
+  
+  .hidden{
+    display: none;
+  }
+  
   @media screen and (max-width: 690px) {
-    .questionsBox {
-      width: 90%;
-    }  
-    
     .questionTitleCard h3 {
       margin-left: 0px;
-      font-size: 24px;
-      width: 85%;
     }  
 
     .Questions span {
