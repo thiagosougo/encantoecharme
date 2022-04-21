@@ -1,0 +1,21 @@
+.FooterSection {
+  background-color: #73263c;
+  padding: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: #fff;
+  font-size: 12px;
+}
+
+.footerIcons a{
+    font-size: 22px;
+    margin:10px
+}
+
+.footerRights{
+    margin-top: 20px
+}

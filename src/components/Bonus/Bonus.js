@@ -28,7 +28,7 @@ export default function Bonus() {
             </p>
 
             <button className="bonusBotao">
-              <a href="">Quero aproveitar o bônus</a>
+              <a target="_blank" href="ttps://hotmart.com/pt-br/marketplace/produtos/maratona-mesa-posta-2-0/A61353761M">Quero aproveitar o bônus</a>
             </button>
           </div>
         </div>

@@ -24,7 +24,31 @@
   margin-bottom: 70px;
 }
 
-.callSection .larguraImagem img{
-    width: 20%;
-    height: 20%;
+.callSection .larguraImagem img {
+  width: 20%;
+  height: 20%;
+}
+
+@media screen and (max-width: 900px) {
+  .callSection {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .callSection {
+    padding: 20px;
+  }
+
+  .callSection h2 {
+    width: 90%;
+    font-size: 40px;
+  }
+
+  .callSection p {
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
 }

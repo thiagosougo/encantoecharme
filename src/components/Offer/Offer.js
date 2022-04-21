@@ -7,21 +7,20 @@ export default function Offer() {
       <div className="primeiraColunaOffer">
         <ul>
           <li>Aulas práticas</li>
-          <li>Mentoria ao vivo</li>
+          <li>Acesso por 1 ano</li>
           <li>Do básico ao avançado</li>
           <li>Área vip e suporte</li>
           <li>+ de 20 aulas</li>
-          <li>Acesso vitalício</li>
         </ul>
       </div>
 
       <div className="segundaColunaOffer">
-        <h2>Oferta disponível por tempo limitado</h2>
+        <h2>Oferta disponível por tempo <span style={{color: "#73263C"}}>limitado</span></h2>
         <div className="valorBotao">
           <h4>De $180 por</h4>
           <h3>$ 120</h3>
           <button>
-            <a href="#">Quero aproveitar</a>
+            <a href="https://hotmart.com/pt-br/marketplace/produtos/maratona-mesa-posta-2-0/A61353761M" target="_blank">Quero aproveitar</a>
           </button>
         </div>
 

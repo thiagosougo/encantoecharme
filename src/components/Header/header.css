@@ -1,50 +1,56 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 999;
-    
-    width: 100vw;
-    padding: 10px;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    background: #73263C
-   }
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
 
-.header h1{
-    text-transform: uppercase;
-    text-align: center;
+  width: 100vw;
+  padding: 10px;
 
-    font-size: 2.5em;
-    color: #FFF
+  background: #73263c;
+}
+.header img{
+    width: 5%;
+    margin-left: 20px;
+}
+.header h1 {
+  text-transform: uppercase;
+  text-align: center;
+
+  font-size: 2.5em;
+  color: #fff;
 }
 
-.header .number{
-    color: #000;
-    font-size: 1.2em
+.header .number {
+  color: #000;
+  font-size: 1.2em;
 }
 
 @media screen and (max-width: 790px) {
-    .header h1{
-        font-size: 1.8rem;
-    }
+  .header h1 {
+    font-size: 1.8rem;
+  }
 
-    .header .number{
-        font-size: 0.9em
-    }
+  .header .number {
+    font-size: 0.9em;
+  }
 }
 
-@media screen and (max-width: 450px) {
-    .header h1{
-        max-width: 300px
-    }
+@media screen and (max-width: 600px) {
+  .header{
+    justify-content: center;
+  }
 
-    .blackColorResponsive{
-        color: #000
-    }
+  .blackColorResponsive {
+    color: #000;
+  }
+
+  .header img{
+    display: none
+  }
 }
-

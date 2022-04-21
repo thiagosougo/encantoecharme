@@ -30,7 +30,12 @@ export default function MesaPosta() {
             <br /> <br /> <p>Apenas $120,00</p>
           </div>
           <div className="linkPrices">
-            <a href="#">Quero fazer parte</a>
+            <a
+              href="https://hotmart.com/pt-br/marketplace/produtos/maratona-mesa-posta-2-0/A61353761M"
+              target="_blank"
+            >
+              Quero fazer parte
+            </a>
           </div>
 
           <div className="larguraImagem">

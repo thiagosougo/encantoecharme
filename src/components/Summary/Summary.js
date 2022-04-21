@@ -7,7 +7,7 @@ export default function Summary() {
   return (
     <div className="Summary">
       <div className="primeiraColunaSummary">
-        <img src={logo} />
+        <img alt="logo" src={logo} />
 
         <h2>Aprenda com quem tem mais de 200 alunas formadas</h2>
 
@@ -25,7 +25,7 @@ export default function Summary() {
       </div>
       <div className="segundaColunaSummary">
         <div className="larguraImagem">
-          <img src={eciene} />
+          <img alt="Eciente" src={eciene} />
         </div>
       </div>
     </div>

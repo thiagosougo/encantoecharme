@@ -9,23 +9,22 @@ import Questions from "./components/Questions/Questions";
 import Summary from "./components/Summary/Summary";
 import Call from "./components/Call/Call";
 import Presentation from "./components/Presentation/Presentation";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
     <div className="App">
       <Header />
       <MainSection />
-      <Call/>
-      <Presentation/>
+      <Call />
+      <Presentation />
+      <About />
       <MesaPosta />
       <div className="Card">
         <Cards
           titulo="Aulas Práticas"
           conteudo=" Conteúdo 100% aplicável em qualquer repertório. Você receberá demonstrações, explicações, exercícios e tarefas para efetivar sua evolução na etiqueta europeia."
-        />
-        <Cards
-          titulo="Mentoria ao vivo"
-          conteudo="Alunas do MARATONA MESA POSTA poderão fazer parte das Alunas VIP, que terão direito a um ano de mentoria ao vivo no ZOOM - 24 aulas (opcional)."
         />
         <Cards
           titulo="Do básico ao avançado"
@@ -40,7 +39,11 @@ export default function App() {
           conteudo="Cronograma montado e planejado para sua evolução na etiqueta com mais de 20 aulas gravadas em vídeo e áudios de exercícios - PDF's de Bônus."
         />
         <Cards
-          titulo="Acesso por um ano"
+          titulo="Certificado de conclusão"
+          conteudo="Após completar o curso, você pode baixar e imprimir o seu certificado de conclusão."
+        />
+        <Cards
+          titulo="Acesso por 1 ano"
           conteudo="Ao adquirir o curso, você tem até 1 ano para concluir, podendo acessar de forma ilimitada neste período."
         />
       </div>
@@ -53,7 +56,9 @@ export default function App() {
         <br />
         <span>frequentes</span>
         <Questions question="" answer="" />
+        
       </div>
+      <Footer/>
     </div>
   );
 }

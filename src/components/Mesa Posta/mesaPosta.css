@@ -26,9 +26,7 @@
   justify-content: flex-start;
 }
 .mesaPosta article section:first-child {
-  padding: 30px;
   width: 88%;
-
   padding: 30px;
 }
 
@@ -132,16 +130,93 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3bf9d', endColorstr='#e9c4a0', GradientType=1 );
 }
 
-.linkPrices a{
-  color: #73263C;
+.linkPrices a {
+  color: #73263c;
   text-transform: uppercase;
 
   font-weight: bold;
   font-size: 25px;
 }
 
-.mesaPosta article section:last-child  img{
+.mesaPosta article section:last-child img {
   margin-top: 20px;
   width: 60%;
 }
 
+@media screen and (max-width: 900px) {
+  .mesaPosta {
+    display: block;
+    padding: 30px;
+    text-align: center;
+  }
+  .mesaPosta h2 {
+    margin: 0;
+  }
+  .mesaPosta article {
+    display: block;
+  }
+  .mesaPosta article section:first-child {
+    width: 100%;
+  }
+
+  .mesaPosta article section:first-child img {
+    width: 30%;
+    text-align: center;
+  }
+  .mesaPosta article section:first-child .larguraImagem {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mesaPosta h2 {
+    margin-bottom: 0px;
+    font-size: 100px;
+  }
+
+  .mesaPosta article section:first-child {
+    padding-top: 0px;
+  }
+
+  .cardPrices p {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mesaPosta h2 {
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .mesaPosta article section:first-child {
+    width: 100;
+    padding: 10px;
+  }
+  .cardPrices {
+    box-shadow: none;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .cardPrices p {
+    text-align: center;
+  }
+
+  .cardPrices p:last-child,
+  .cardPrices p:nth-child(2) {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cardPrices p:first-child {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .linkPrices {
+    text-align: center;
+  }
+
+  .linkPrices a {
+    font-size: 20px;
+  }
+}
