@@ -1,10 +1,10 @@
 import React from "react";
 import "./depositions.css";
-import dep1 from "../../videos/dep1.mp4";
+import dep1 from "../../videos/dep1.MP4";
 import dep2 from "../../videos/dep2.MP4";
 import dep3 from "../../videos/dep3.MOV";
-import dep4 from "../../videos/dep4.mp4";
-import dep5 from "../../videos/dep5.mp4";
+import dep4 from "../../videos/dep4.MP4";
+import dep5 from "../../videos/dep5.MP4";
 import dep6 from "../../videos/dep6.MP4";
 import dep7 from "../../videos/dep7.mp4";
 

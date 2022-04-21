@@ -9,7 +9,7 @@ function Header() {
       <h1>
         Últimas vagas com
         <span className="blackColorResponsive">
-          <span className="number">30%</span> de desconto
+          <span className="number"> 30%</span> de desconto
         </span>
       </h1>
       <div></div>

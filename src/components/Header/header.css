@@ -53,4 +53,8 @@
   .header img{
     display: none
   }
+
+  .header h1{
+    width: 94%
+  }
 }
